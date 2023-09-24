@@ -8,6 +8,7 @@ import Flipkart from "../../Assets/Projects/Flipcart_clone_p.png";
 import Netflix from "../../Assets/Projects/Netflix_clone.jpg";
 import Portfolio from "../../Assets/Projects/Portfolio.jpg";
 import Amazon from "../../Assets/Projects/Amazon_clone_p.jpg";
+import myportfolio from "../../Assets/Projects/myportfolio.png"
 
 function Projects() {
   return (
@@ -21,6 +22,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={myportfolio}
+              isBlog={false}
+              title="My_Portfolio_Website"
+              description="my personal portfolio website, a showcase of my skills, experiences, and creative endeavors, all brought to life with the power of React.js. This website is a dynamic platform that highlights my professional journey and demonstrates my proficiency in web development."
+              ghLink="https://github.com/Laxmikant-talakeri/My_Portfolio_Website"
+              demoLink="https://github.com/Laxmikant-talakeri/My_Portfolio_Website"
+            
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Netflix}
@@ -31,6 +43,7 @@ function Projects() {
               
             />
           </Col>
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -86,6 +99,8 @@ function Projects() {
             
             />
           </Col>
+          
+         
         </Row>
       </Container>
     </Container>
