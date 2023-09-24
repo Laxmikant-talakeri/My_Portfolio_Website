@@ -29,7 +29,7 @@ function Projects() {
               title="My_Portfolio_Website"
               description="my personal portfolio website, a showcase of my skills, experiences, and creative endeavors, all brought to life with the power of React.js. This website is a dynamic platform that highlights my professional journey and demonstrates my proficiency in web development."
               ghLink="https://github.com/Laxmikant-talakeri/My_Portfolio_Website"
-              demoLink="https://github.com/Laxmikant-talakeri/My_Portfolio_Website"
+              demoLink="https://laxmikant-talakeri.github.io/My_Portfolio_Website"
             
             />
           </Col>
