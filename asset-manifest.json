@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio_Website/static/css/main.b16c9d0b.css",
+    "main.js": "/My_Portfolio_Website/static/js/main.4df60d90.js",
+    "static/js/787.1ed0c42c.chunk.js": "/My_Portfolio_Website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Amazon_clone_p.jpg": "/My_Portfolio_Website/static/media/Amazon_clone_p.1293fab2dd192a3122a9.jpg",
+    "static/media/Keylogger.png": "/My_Portfolio_Website/static/media/Keylogger.e6efb4aff4f53edc1683.png",
+    "static/media/Flipcart_clone_p.png": "/My_Portfolio_Website/static/media/Flipcart_clone_p.60b7ed057f3272bf5863.png",
+    "static/media/myportfolio.png": "/My_Portfolio_Website/static/media/myportfolio.2f043cb5e73f1afd64b0.png",
+    "static/media/Laxmikant_Talakeri_Resume.pdf": "/My_Portfolio_Website/static/media/Laxmikant_Talakeri_Resume.0e1c48f8b233207643aa.pdf",
+    "static/media/home-main.svg": "/My_Portfolio_Website/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/My_Portfolio_Website/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Netflix_clone.jpg": "/My_Portfolio_Website/static/media/Netflix_clone.49a46d6d71fefedf02b6.jpg",
+    "static/media/myImg.jpg": "/My_Portfolio_Website/static/media/myImg.fc4aacf0b7d0a9a8b4d3.jpg",
+    "static/media/text_voice.png": "/My_Portfolio_Website/static/media/text_voice.98d12a631a9ffbde2290.png",
+    "index.html": "/My_Portfolio_Website/index.html",
+    "main.b16c9d0b.css.map": "/My_Portfolio_Website/static/css/main.b16c9d0b.css.map",
+    "main.4df60d90.js.map": "/My_Portfolio_Website/static/js/main.4df60d90.js.map",
+    "787.1ed0c42c.chunk.js.map": "/My_Portfolio_Website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b16c9d0b.css",
+    "static/js/main.4df60d90.js"
+  ]
+}
