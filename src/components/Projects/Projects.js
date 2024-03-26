@@ -9,6 +9,10 @@ import Netflix from "../../Assets/Projects/Netflix_clone.jpg";
 import Portfolio from "../../Assets/Projects/Portfolio.jpg";
 import Amazon from "../../Assets/Projects/Amazon_clone_p.jpg";
 import myportfolio from "../../Assets/Projects/myportfolio.png"
+import expense from "../../Assets/Projects/expense_tracker.png"
+import educity from "../../Assets/Projects/educity.png"
+import gemini from   "../../Assets/Projects/gemini.png"
+import zomoto from "../../Assets/Projects/zomoto1.png"
 
 function Projects() {
   return (
@@ -22,6 +26,55 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={zomoto}
+              isBlog={false}
+              title="Zomoto_clone"
+              description="Zomato is a online food ordering application, we made a clone (Tomato) of it using React Js, Zomato Frontend clone using
+              React Js."
+                            
+              ghLink="https://github.com/Laxmikant-talakeri/zomoto_clone"
+              
+            
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gemini}
+              isBlog={false}
+              title="Gemini_clone"
+              description="This project empowers you to create a Gemini clone application, leveraging the capabilities of Google's cutting-edge AI model,
+              Gemini, on a Google APU (Accelerated Processing Unit) and using Goole API
+              "
+              ghLink="https://github.com/Laxmikant-talakeri/gemini_clone"
+              
+            
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={educity}
+              isBlog={false}
+              title="Educity"
+              description="Welcome to EduCity, an innovative educational platform built with React.js for a seamless and interactive learning experience. This responsive website is designed to provide a user-friendly interface that adapts to various devices, ensuring accessibility for all learners."
+              ghLink="https://github.com/Laxmikant-talakeri/educity"
+              
+            
+            />
+          </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expense}
+              isBlog={false}
+              title="Expense-Tracker"
+              description="An innovative expense tracking application meticulously crafted with HTML, CSS, and JavaScript, empowering users to take charge of their finances effortlessly. Seamlessly blending a user-friendly interface with powerful functionality, this application simplifies expense management."
+              ghLink="https://github.com/Laxmikant-talakeri/Expense-Tracker"
+              
+            
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={myportfolio}
