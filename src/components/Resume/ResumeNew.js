@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-
-import pdf from "../../Assets/Laxmikant_Talakeri_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import pdf from "../../Assets/Laxmikant.pdf"
+
+// Set up pdfjs worker source
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -17,15 +18,9 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className="resume-section" style={{backgroundColor:"black"}}>
-     
+      <Container fluid className="resume-section" style={{ backgroundColor: "black" }}>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+          <Button variant="primary" href={pdf} target="_blank" style={{ maxWidth: "250px" }}>
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
@@ -38,12 +33,7 @@ function ResumeNew() {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+          <Button variant="primary" href={pdf} target="_blank" style={{ maxWidth: "250px" }}>
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
